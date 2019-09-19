@@ -1,0 +1,35 @@
+.m-wrap{display: flex;flex-direction: column;position: absolute;top: 0;left: 0;right: 0;bottom: 0;}
+.m-header{height: 50px;line-height: 50px;background: #a12222;color: #ffffff;text-align: center;}
+.m-main{flex: 1;height: 100%;}
+.m-footer{display: flex; height: 50px;border-top: 1px solid #dddddd;}
+.m-footer-nav-item{flex: 1;text-align: center;line-height: 50px;text-decoration: none;color: #333333;}
+.m-footer-nav-item.router-link-active{color: #F66F0C;}
+.m-home{display: flex;height: 100%;}
+.m-sidebar{width: 150px;height: 100%;border-right: 1px solid #dddddd;}
+.m-food-list{flex: 1;height: 100%;overflow-y: auto;}
+.m-sidebar-nav-item{text-align: center;line-height: 30px;color:#333333; border-bottom: 1px solid #dddddd;cursor: pointer;}
+.m-sidebar-nav-item.active{color: #ffffff;background: #ee5353;}
+.m-food-list-item{display: flex;padding: 5px; border-bottom: 1px solid #dddddd;}
+.m-food-list-img{width: 120px;border-radius: 5px;}
+.m-food-list-info{flex: 1;padding: 5px;}
+.m-name{font-size: 20px;}
+.m-price{color: #ff0000;font-size: 18px;font-weight: bold;line-height: 40px;}
+.m-dialog-content{margin: 10px 0 0; text-align: center;height: 30px;}
+.m-sub-btn{display: inline-block;margin: 6px 0 0; width: 20px;height: 20px;line-height: 18px;text-align: center;border-radius: 10px; background: #dddddd;color: #ffffff;cursor: pointer;vertical-align: top;}
+.m-count{display: inline-block;width: 50px;color: #f66f0c;font-size: 20px; font-weight: bold;text-align: center;vertical-align: top;}
+.m-add-btn{display: inline-block;margin: 6px 0 0; width: 20px;height: 20px;line-height: 18px;text-align: center;border-radius: 10px; background: #ee3b3b;color: #ffffff;cursor: pointer;vertical-align: top;}
+.m-cart{padding: 10px;}
+.m-cart-list-item{margin: 20px 0 0;}
+.m-cart-category-name .el-checkbox__label{font-weight: bold;font-size: 20px;}
+.m-cart-food-list{padding: 0 0 0 20px;}
+.m-cart-food-list-item{position: relative; margin: 10px 0 0 0;}
+.m-cart-price{margin: 0 0 0 10px; color: #ff0000;font-size: 18px;font-weight: bold;line-height: 40px;}
+.m-cart-control{position: absolute;top: 5px;right: 10px;}
+.m-cart-delete-btn{margin: 0 0 0 10px;}
+.m-total-wrap{margin: 10px;}
+.m-total-num{margin: 0 5px;font-size: 20px;font-weight: bold;color: #f66f0c;}
+.m-select-all{margin: 10px 0 0!important; font-size: 20px!important;font-weight: bold;}
+
+
+
+
